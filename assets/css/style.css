@@ -243,6 +243,18 @@ p {
   transition: var(--transition-fast);
 }
 
+.mobile-nav-toggle[aria-expanded="true"] .bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.mobile-nav-toggle[aria-expanded="true"] .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-nav-toggle[aria-expanded="true"] .bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
 /* ==========================================================
    3. Section Structuring Common Blocks
    ========================================================== */
