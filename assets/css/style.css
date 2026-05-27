@@ -1405,6 +1405,16 @@ section {
 }
 
 @media (max-width: 768px) {
+  .global-header {
+    background-color: var(--bg-pearl);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  
+  .glow-sphere {
+    display: none;
+  }
+
   section {
     padding: 60px 0;
   }

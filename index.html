@@ -29,7 +29,12 @@
   <!-- Google Fonts Pairing: Playfair Display (Serif) & Outfit (Geometric Sans) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Optimized Asynchronous Google Fonts Loading -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+  </noscript>
   
   <!-- Core Layout & Design Style Sheets -->
   <link rel="stylesheet" href="assets/css/variables.css">
@@ -107,7 +112,7 @@
     <nav class="nav-container" aria-label="Main Navigation">
       <div class="logo">
         <a href="#hero" aria-label="The Bloombridge Home" class="logo-link">
-          <img src="assets/img/logo.jpeg" alt="The Bloombridge Logo" class="logo-image"><span class="logo-text-main">The Bloombridge</span><span class="logo-text-dot">.</span>
+          <img src="assets/img/logo.jpeg" alt="The Bloombridge Logo" class="logo-image" width="178" height="120"><span class="logo-text-main">The Bloombridge</span><span class="logo-text-dot">.</span>
         </a>
       </div>
       
@@ -790,7 +795,7 @@
     <div class="container footer-grid">
       <div class="footer-brand-pane">
         <a href="#hero" class="footer-logo font-serif">
-          <img src="assets/img/logo.jpeg" alt="The Bloombridge Logo" class="footer-logo-image">The Bloombridge
+          <img src="assets/img/logo.jpeg" alt="The Bloombridge Logo" class="footer-logo-image" loading="lazy" width="178" height="120">The Bloombridge
         </a>
         <p class="footer-bio">
           We bridge the gap between high-potential corporate talent and elite executive performance, ensuring growth and metrics-driven leadership transformation.

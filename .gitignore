@@ -3,3 +3,5 @@ dist
 .DS_Store
 .npm
 *.log
+assets/img/logo-original.jpeg
+

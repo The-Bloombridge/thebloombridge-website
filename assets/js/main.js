@@ -20,11 +20,19 @@ function initializeHeaderScroll() {
   const header = document.getElementById('global-header');
   if (!header) return;
 
+  let ticking = false;
+
   const handleScroll = () => {
-    if (window.scrollY > 20) {
-      header.classList.add('scrolled');
-    } else {
-      header.classList.remove('scrolled');
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        if (window.scrollY > 20) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+        ticking = false;
+      });
+      ticking = true;
     }
   };
 
