@@ -1,0 +1,21 @@
+{
+  "name": "thebloombridge",
+  "version": "1.0.0",
+  "description": "Bespoke Learning & Development website for The Bloombridge.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "learning-and-development",
+    "executive-coaching",
+    "corporate-training"
+  ],
+  "author": "The Bloombridge",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

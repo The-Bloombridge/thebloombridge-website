@@ -1,0 +1,76 @@
+/**
+ * =================================================================
+ * The Bloombridge - Design System & Custom Style Tokens
+ * =================================================================
+ * This file centralizes all theme properties. Editing agents and 
+ * developers can change colors, typography sizes, and borders here 
+ * to apply site-wide branding updates immediately.
+ */
+
+:root {
+  /* ==========================================
+     1. Color Canvas & Backgrounds 
+     ========================================== */
+  --bg-pearl: #FDF5EB;          /* Primary elegant cream-peach canvas background */
+  --bg-card: #FFFDFB;           /* Pristine soft cream-white card background */
+  --bg-card-hover: #FFFBF6;     /* Subtle cream-peach hover glow */
+  
+  /* ==========================================
+     2. Premium Light Pastel Tones 
+     ========================================== */
+  --pastel-sage: #E4EFE9;       /* Soft growth/sage green for accent containers/pills */
+  --pastel-gold: #F7EFE2;       /* Muted champagne gold for warm trust backgrounds */
+  --pastel-lavender: #E8EEF1;   /* Soft slate-blue for technical/structure accents */
+  --pastel-border: #E3ECE7;     /* Soft mint-slate borders */
+  --pastel-border-glow: #CADAD2;/* Active or focused border highlighting */
+  
+  /* ==========================================
+     3. Visual Contrast & Accessibility (WCAG AAA/AA Compliant) 
+     ========================================== */
+  --text-header: #1F2D25;       /* Deep rich olive-forest charcoal for crisp readability */
+  --text-body: #4A5950;         /* Sophisticated, readable dark sage-slate for body text */
+  --text-muted: #7E9086;        /* Slate sage grey for secondary indicators/captions */
+  
+  /* ==========================================
+     4. Functional & High-Impact Brand Accent Colors 
+     ========================================== */
+  --accent-gold-dark: #B58B12;  /* Burnished brass-gold for high-visibility links/subtitles */
+  --accent-mint-dark: #123524;  /* Deep rich forest green for core actions and active tabs */
+  --accent-mint-hover: #224C37; /* Slightly brighter deep green for button hover states */
+  --color-error: #D32F2F;       /* Functional form error status */
+  --color-success: #2E7D32;     /* Functional success/validated status */
+  
+  /* ==========================================
+     5. Typography & Font Configurations 
+     ========================================== */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
+  
+  /* Font weights */
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  
+  /* ==========================================
+     6. Layout Metrics & Responsiveness 
+     ========================================== */
+  --max-width-site: 1200px;
+  --header-height: 80px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  
+  /* ==========================================
+     7. Transition Dynamics & Physics 
+     ========================================== */
+  --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: all 0.2s ease-out;
+  
+  /* ==========================================
+     8. Shadows & Lighting 
+     ========================================== */
+  --shadow-subtle: 0 4px 20px -2px rgba(31, 45, 37, 0.04);
+  --shadow-medium: 0 10px 30px -4px rgba(31, 45, 37, 0.06);
+  --shadow-premium: 0 20px 40px -8px rgba(31, 45, 37, 0.08);
+}
